@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="All about Snickers, the delicious candy bar.">
+    <title>Snickers - How Sweet Is This!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>All About Snickers</h1>
+        <nav>
+            <ul>
+                <li><a href="#facts">Facts</a></li>
+                <li><a href="#imagery">Imagery</a></li>
+                <li><a href="#nutrition">Nutrition</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="facts">
+            <h2>Interesting Facts</h2>
+            <p>Snickers is a chocolate bar made by Mars, Incorporated. It consists of nougat topped with caramel and peanuts, encased in milk chocolate.</p>
+        </section>
+        <section id="imagery">
+            <h2>Eye-Popping Imagery</h2>
+            <img id="snickersImage" src="snickers.png" alt="Snickers Bar">
+        </section>
+        <section id="nutrition">
+            <h2>Nutritional Information</h2>
+            <button id="openModal">Show Nutrition Facts</button>
+        </section>
+    </main>
+    <div id="nutritionModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>One Snickers bar (52.7g) contains 250 calories, 12g of fat, 4.5g of saturated fat, 27g of sugar, and 4g of protein.</p>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-logo">
+            <img src="logo.png" alt="Company Logo">
+        </div>
+        <div class="footer-info">
+            <p>Company Name</p>
+            <p>123 Candy Lane</p>
+            <p>Sweetville, Candyland 12345</p>
+        </div>
+        <div class="footer-contact">
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
